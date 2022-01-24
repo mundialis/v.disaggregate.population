@@ -1,0 +1,26 @@
+<h2>DESCRIPTION</h2>
+
+<em>v.disaggregate.population</em> disaggregates population data from a administrative
+boundary vector with population information onto a high-res raster with
+estimated local population. A urban area vector is used to close small gaps in
+the population raster in high density urban areas.
+
+<h2>EXAMPLE</h2>
+
+<div class="code"><pre>
+v.disaggregate.population population_vector=admin_areas population_column=POP_2020 population_raster=pop_raster_2020 urban_vector=urban_areas output=pop_raster_2020_disaggregated
+</pre></div>
+
+<h2>SEE ALSO</h2>
+<em>
+<a href="r.grow.html">r.grow</a>,
+<a href="v.area.weigh.html">v.area.weigh</a>,
+</em>
+
+<h2>AUTHOR</h2>
+
+Guido Riembauer, mundialis
+
+<!--
+<p><i>Last changed: $Date$</i>
+-->
