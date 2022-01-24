@@ -3,15 +3,22 @@
 ############################################################################
 #
 # MODULE:      v.disaggregate.population
-# AUTHOR(S):   Guido Riembauer, mundialis GmbH & Co. KG
+# AUTHOR(S):   Guido Riembauer, <riembauer at mundialis.de>
 #
 # PURPOSE:     Disaggregates population based on vector admin areas, vector
 #              urban areas and a high resolution population raster
 #
-# COPYRIGHT:   (C) 2020-2022 by mundialis
-#              This program is free software under the GNU General Public
-#              License (>=v2). Read the file COPYING that comes with GRASS
-#              for details.
+# COPYRIGHT:   (C) 2020-2022 mundialis GmbH & Co. KG, and the GRASS Development Team
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
 #
 #############################################################################
 # %Module
