@@ -2,8 +2,10 @@
 
 # E501 line too long (83 > 79 characters)
 # F821 undefined name '_'
+# F824 `xyz` is unused: name is never assigned in scope
+
 
 exclude = .git
 max-line-length = 88
 per-file-ignores =
-    ./v.disaggregate.population.py: F821, E501, E722
+    ./v.disaggregate.population.py: F821, E501, E722, F824
